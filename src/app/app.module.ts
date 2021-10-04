@@ -10,6 +10,7 @@ import { ServersComponent } from './servers/servers.component';
 import { PermissionsComponent } from './permissions/permissions.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FunctionsComponent } from './functions/functions.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ServersComponent,
     PermissionsComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FunctionsComponent
   ],
   imports: [
     BrowserModule,
